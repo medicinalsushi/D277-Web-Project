@@ -1,0 +1,20 @@
+* {
+    font-family: Segoe UI;
+    background-color: slategray;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    background-color: cadetblue;
+}
+
+button:hover {
+    background-color: lightslategrey
+}
+
+aside {
+    float: right;
+    font-style: italic
+}
