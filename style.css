@@ -1,6 +1,6 @@
 * {
     font-family: Segoe UI;
-    background-color: slategray;
+    /*background-color: slategray;*/
 }
 
 button {
@@ -10,11 +10,42 @@ button {
     background-color: cadetblue;
 }
 
+nav {
+    position: absolute; 
+}
+
 button:hover {
-    background-color: lightslategrey
+    background-color: rgb(130, 169, 180)
+}
+
+
+table,th,td {
+   border: 1px solid rgb(34, 177, 21);
+}
+
+.floatright {
+    float: right;
 }
 
 aside {
-    float: right;
-    font-style: italic
+    font-style: italic;
+    float: left;
+    position: relative;
+    top: 450px;
+
 }
+
+img {
+    width:600px;
+}
+
+label {
+    display: block;  
+ }
+ input  {
+    display: block;
+ }
+ 
+
+
+
