@@ -1,54 +1,57 @@
-<!DOCTYPE html>
+* {
+    font-family: Segoe UI;
+}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <nav>
-        <button><a href="WashingtonState.html">Washington State</a></button>
-        <button><a href="Olympia.html">Olympia</a></button>
-        <button><a href="Seattle.html">Seattle</a></button>
-        <button><a href="Spokane.html">Spokane</a></button>
-        <button><a href="Contact.html">Contact</a></button>
-        
-    </nav>
-    <meta charset="utf-8" />
-    <title>Spokane</title>
-    <h1>Spokane</h1>
-    <h2>Eastern Washington</h2>
-    <link rel="stylesheet" href="style.css">
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    background-color: cadetblue;
+    opacity: 73;
+}
 
-</head>
-<body>
-    
+nav {
+    position: absolute; 
+}
 
-    <section>
-        Population *[1]<br>
-        230,160<br><br>
-        
+button:hover {
+    background-color: rgb(130, 169, 180);
+}
 
-        Incorporation *[2]<br>
-        Nov. 29, 1881<br><br>
-        
+#backgroundColor {
+    background-color: cadetblue;
+    opacity: 73;
+}
 
-        Region<br>
-        East<br><br>
 
-        Classification<br>
-        Urban<br><br>
+table,th,td {
+   border: 1px solid rgb(34, 177, 21);
+}
 
-        Average Per Capita Income VS State Per Capita Income<br>
-        Spokane: $32,991 *[1]<br>
-        State: $73,775 *[3]
-        
+.floatright {
+    float: right;
+}
 
-        <img src="spokane.jpg" alt="spokane" class="floatright">
+aside {
+    font-style: italic;
+    float: left;
+    position: relative;
+    top: 100px;
 
-    </section>
+}
 
-    <aside>
-        References
-        [1] <a href="https://my.spokanecity.org/about/spokane/">Spokane City - Spokane</a>"
-        [2] <a href="https://my.spokanecity.org/about/history/">Spokane City - History</a>
-        [3] <a href="https://ofm.wa.gov/washington-data-research/statewide-data/washington-trends/economic-trends/washington-and-us-capita-personal-income/capita-personal-income-county#top">Office of Financial Management</a>
-    </aside>
-</body>
-</html>
+img {
+    width:600px;
+    position: relative;
+}
+
+label {
+    display: block;  
+ }
+ input  {
+    display: block;
+ }
+ 
+
+
+
