@@ -14,6 +14,8 @@ let formWidget = document.querySelector("#myForm");
 formWidget.addEventListener("submit", checkForm);
 
 function checkForm(event) {
-    if (!emailValid)
-    event.preventDefault;
+    if (!emailValid) { 
+        event.preventDefault();
+        myForm.emailConf.style.backgroundColor = "Red";
+    }
 }
