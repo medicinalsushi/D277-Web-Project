@@ -1,6 +1,5 @@
 * {
     font-family: Segoe UI;
-    /*background-color: slategray;*/
 }
 
 button {
@@ -8,6 +7,7 @@ button {
     height: 50px;
     font-size: 18px;
     background-color: cadetblue;
+    opacity: 73;
 }
 
 nav {
@@ -15,7 +15,12 @@ nav {
 }
 
 button:hover {
-    background-color: rgb(130, 169, 180)
+    background-color: rgb(130, 169, 180);
+}
+
+#backgroundColor {
+    background-color: cadetblue;
+    opacity: 73;
 }
 
 
@@ -31,12 +36,13 @@ aside {
     font-style: italic;
     float: left;
     position: relative;
-    top: 450px;
+    top: 100px;
 
 }
 
 img {
     width:600px;
+    position: relative;
 }
 
 label {
